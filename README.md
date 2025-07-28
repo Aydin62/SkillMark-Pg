@@ -52,3 +52,20 @@ All queries are run against a mock **SkillMark Learning Management System** sche
     </code>
 </pre>
 
+## Database Schema Overview
+
+- `users`: Learners in the system
+
+- `courses`: Courses such as *Linear Algebra,* etc.
+
+- `modules`:  individual learning modules within courses
+
+- `progress_logs`: User attempts, scores, and time logs
+
+### Relational Design:
+
+     ⋄ Each module belongs to a course.
+
+     ⋄ Each progress log links a user to a module.
+
+     ⋄ `score` and `time_spent` are tracked per attempt.
