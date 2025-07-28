@@ -33,6 +33,22 @@ All queries are run against a mock **SkillMark Learning Management System** sche
 
 ## Project Structure
 
-|File|Discription|
-|---|---|
-|
+<pre>
+    <code>
+        📁 SkillMark-Pg
+        ├── 📄 LICENSE
+        ├── 📄 .gitignore
+        ├── 📄 README.md
+        |
+        ├── 📁 schema
+        |   ├── 📄 ERD.svg
+        |   └── 📄 table_maker.sql
+        |
+        ├── 📁 data
+        |   └── 📄 mock_data_inserter.sql
+        |
+        └── 📁 queries
+            └── 📄 skillmark_query_matrix.md
+    </code>
+</pre>
+

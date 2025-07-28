@@ -4,7 +4,7 @@
 
 > This document is a structured and extensive SQL query log.
 > It demonstrates the full spectrum of query types supported by PostgreSQL 9.5+,
-> organized by "conceptual tiers", and grouped analytically.
+> organized by "conceptual tiers," and grouped analytically.
 
 The purpose is to show the mastery of: 
 
